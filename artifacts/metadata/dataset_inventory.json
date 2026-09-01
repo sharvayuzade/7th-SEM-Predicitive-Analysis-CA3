@@ -1,0 +1,36 @@
+{
+  "archive_fire": 755,
+  "archive_nofire": 244,
+  "archive_total": 999,
+  "uavs_fire": 1145,
+  "uavs_nofire": 385,
+  "uavs_raw_total": 1530,
+  "uavs_augmented": 15560,
+  "csv_rows": 518,
+  "csv_columns": 13,
+  "fire_img_dir": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\archive (1)\\fire_dataset\\fire_images",
+  "nonfire_img_dir": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\archive (1)\\fire_dataset\\non_fire_images",
+  "uavs_raw_stats": {
+    "Evening Fire Incident_raw_img": {
+      "count": 354,
+      "label": "FIRE",
+      "path": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\forestfire-8gb\\UAVS-FDDB UAVs-based Forest Fire Detection Database\\Original Image Dataset (Raw Images)\\Evening Fire Incident_raw_img\\Evening Fire Incident_raw_img"
+    },
+    "Evening Forest condition_raw_img": {
+      "count": 286,
+      "label": "NO_FIRE",
+      "path": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\forestfire-8gb\\UAVS-FDDB UAVs-based Forest Fire Detection Database\\Original Image Dataset (Raw Images)\\Evening Forest condition_raw_img\\Evening Forest condition_raw_img"
+    },
+    "Pre-Evening Fire Incident_raw_img": {
+      "count": 791,
+      "label": "FIRE",
+      "path": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\forestfire-8gb\\UAVS-FDDB UAVs-based Forest Fire Detection Database\\Original Image Dataset (Raw Images)\\Pre-Evening Fire Incident_raw_img\\Pre-Evening Fire Incident_raw_img"
+    },
+    "Pre-evening Forest condition_raw_img": {
+      "count": 99,
+      "label": "NO_FIRE",
+      "path": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\forestfire-8gb\\UAVS-FDDB UAVs-based Forest Fire Detection Database\\Original Image Dataset (Raw Images)\\Pre-evening Forest condition_raw_img\\Pre-evening Forest condition_raw_img"
+    }
+  },
+  "csv_path": "e:\\Sharvayu data\\Malware\\Symbiosis Nagpur SIT\\7th SEM\\Forest Fire task\\forest+fires\\forestfires.csv"
+}

@@ -1,0 +1,69 @@
+{
+  "classifier_name": "Random Forest",
+  "regressor_name": "Random Forest",
+  "feature_cols": [
+    "X",
+    "Y",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "temp",
+    "RH",
+    "wind",
+    "rain",
+    "month_enc",
+    "day_enc"
+  ],
+  "numerical_features": [
+    "X",
+    "Y",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "temp",
+    "RH",
+    "wind",
+    "rain"
+  ],
+  "categorical_features": [
+    "month",
+    "day"
+  ],
+  "month_classes": [
+    "apr",
+    "aug",
+    "dec",
+    "feb",
+    "jan",
+    "jul",
+    "jun",
+    "mar",
+    "may",
+    "nov",
+    "oct",
+    "sep"
+  ],
+  "day_classes": [
+    "fri",
+    "mon",
+    "sat",
+    "sun",
+    "thu",
+    "tue",
+    "wed"
+  ],
+  "cls_metrics": {
+    "accuracy": 0.625,
+    "precision": 0.6364,
+    "recall": 0.6481,
+    "f1": 0.6422,
+    "roc_auc": 0.6978
+  },
+  "reg_metrics": {
+    "mae": 12.2667,
+    "rmse": 37.48,
+    "r2": -0.1056
+  }
+}

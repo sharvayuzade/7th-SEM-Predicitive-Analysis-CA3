@@ -1,0 +1,27 @@
+{
+  "image_size": 224,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "train_augmentations": [
+    "Resize(256x256)",
+    "RandomCrop(224x224)",
+    "RandomHorizontalFlip(p=0.5)",
+    "RandomVerticalFlip(p=0.2)",
+    "RandomRotation(10\u00b0)",
+    "ColorJitter(brightness=0.2,contrast=0.2)",
+    "RandomGrayscale(p=0.02)",
+    "Normalize(ImageNet mean/std)"
+  ],
+  "val_test_augmentations": [
+    "Resize(224x224)",
+    "Normalize(ImageNet mean/std)"
+  ]
+}

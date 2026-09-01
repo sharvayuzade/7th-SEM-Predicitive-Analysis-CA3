@@ -1,0 +1,33 @@
+{
+  "model_name": "EfficientNet-B0",
+  "image_size": 224,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "class_names": [
+    "FIRE",
+    "NO_FIRE"
+  ],
+  "class_to_idx": {
+    "FIRE": 0,
+    "NO_FIRE": 1
+  },
+  "epochs_ran": 13,
+  "best_epoch": 8,
+  "best_val_f1": 0.9899,
+  "test_accuracy": 0.99,
+  "test_f1": 0.99,
+  "test_auc": 0.9919,
+  "inference_ms": 23.72,
+  "device": "cpu",
+  "batch_size": 16,
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR"
+}

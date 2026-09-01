@@ -1,0 +1,68 @@
+{
+  "classification": [
+    {
+      "model": "XGBoost",
+      "cv_accuracy": 0.5646,
+      "cv_f1": 0.5784,
+      "cv_roc_auc": 0.5717,
+      "time_s": 1.9
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy": 0.5937,
+      "cv_f1": 0.6148,
+      "cv_roc_auc": 0.5868,
+      "time_s": 3.9
+    },
+    {
+      "model": "HistGradientBoosting",
+      "cv_accuracy": 0.5762,
+      "cv_f1": 0.6011,
+      "cv_roc_auc": 0.5896,
+      "time_s": 6.1
+    },
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy": 0.5377,
+      "cv_f1": 0.6013,
+      "cv_roc_auc": 0.519,
+      "time_s": 0.1
+    }
+  ],
+  "regression": [
+    {
+      "model": "XGBoost",
+      "cv_mae": 1.2791,
+      "cv_r2": -0.4098,
+      "time_s": 1.6
+    },
+    {
+      "model": "Random Forest",
+      "cv_mae": 1.186,
+      "cv_r2": -0.1102,
+      "time_s": 2.4
+    },
+    {
+      "model": "HistGradientBoosting",
+      "cv_mae": 1.1937,
+      "cv_r2": -0.1997,
+      "time_s": 2.2
+    }
+  ],
+  "best_classifier": "Random Forest",
+  "best_regressor": "Random Forest",
+  "feature_cols": [
+    "X",
+    "Y",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "temp",
+    "RH",
+    "wind",
+    "rain",
+    "month_enc",
+    "day_enc"
+  ]
+}

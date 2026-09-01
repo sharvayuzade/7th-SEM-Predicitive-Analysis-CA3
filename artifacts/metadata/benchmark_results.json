@@ -1,0 +1,34 @@
+[
+  {
+    "model": "EfficientNet-B0",
+    "accuracy": 0.985,
+    "precision": 0.9851,
+    "recall": 0.985,
+    "f1": 0.985,
+    "inference_ms": 13.38
+  },
+  {
+    "model": "MobileNetV2",
+    "accuracy": 0.985,
+    "precision": 0.9851,
+    "recall": 0.985,
+    "f1": 0.985,
+    "inference_ms": 10.03
+  },
+  {
+    "model": "ResNet18",
+    "accuracy": 0.985,
+    "precision": 0.985,
+    "recall": 0.985,
+    "f1": 0.985,
+    "inference_ms": 17.88
+  },
+  {
+    "model": "MobileNetV3",
+    "accuracy": 0.975,
+    "precision": 0.9752,
+    "recall": 0.975,
+    "f1": 0.9751,
+    "inference_ms": 3.43
+  }
+]

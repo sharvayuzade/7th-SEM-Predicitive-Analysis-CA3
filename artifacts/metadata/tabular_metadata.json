@@ -1,0 +1,37 @@
+{
+  "features": [
+    "X",
+    "Y",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "temp",
+    "RH",
+    "wind",
+    "rain",
+    "month",
+    "day"
+  ],
+  "numerical_features": [
+    "X",
+    "Y",
+    "FFMC",
+    "DMC",
+    "DC",
+    "ISI",
+    "temp",
+    "RH",
+    "wind",
+    "rain"
+  ],
+  "categorical_features": [
+    "month",
+    "day"
+  ],
+  "regression_target": "area",
+  "classification_target": "fire_occurred",
+  "n_samples": 517,
+  "fire_positive": 270,
+  "fire_negative": 247
+}

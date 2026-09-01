@@ -1,0 +1,15 @@
+{
+  "classifier": {
+    "accuracy": 0.625,
+    "precision": 0.6364,
+    "recall": 0.6481,
+    "f1": 0.6422,
+    "roc_auc": 0.6978
+  },
+  "regressor": {
+    "mae": 12.2667,
+    "mse": 1404.7497,
+    "rmse": 37.48,
+    "r2": -0.1056
+  }
+}

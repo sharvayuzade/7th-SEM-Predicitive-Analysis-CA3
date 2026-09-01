@@ -1,0 +1,10 @@
+{
+  "class_names": [
+    "FIRE",
+    "NO_FIRE"
+  ],
+  "class_weights": {
+    "FIRE": 0.6687555953446732,
+    "NO_FIRE": 1.9814323607427056
+  }
+}

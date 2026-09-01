@@ -1,0 +1,14 @@
+{
+  "class_names": [
+    "FIRE",
+    "NO_FIRE"
+  ],
+  "class_to_idx": {
+    "FIRE": 0,
+    "NO_FIRE": 1
+  },
+  "idx_to_class": {
+    "0": "FIRE",
+    "1": "NO_FIRE"
+  }
+}
