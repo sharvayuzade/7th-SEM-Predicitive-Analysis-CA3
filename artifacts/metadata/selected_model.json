@@ -1,7 +1,7 @@
 {
-  "model_name": "EfficientNet-B0",
-  "selected_by": "benchmark_f1",
-  "benchmark_f1": 0.985,
-  "benchmark_acc": 0.985,
-  "inference_ms": 13.38
+  "model_name": "YOLO26n-cls",
+  "selected_by": "yolo26_default",
+  "framework": "ultralytics",
+  "weights": "yolo26n-cls.pt",
+  "description": "YOLO26 Nano Classification \u2014 state-of-the-art 2026 model"
 }

@@ -1,5 +1,7 @@
 {
-  "model_name": "EfficientNet-B0",
+  "model_name": "YOLO26n-cls",
+  "framework": "ultralytics",
+  "weights": "yolo26n-cls.pt",
   "image_size": 224,
   "imagenet_mean": [
     0.485,
@@ -19,15 +21,16 @@
     "FIRE": 0,
     "NO_FIRE": 1
   },
-  "epochs_ran": 13,
-  "best_epoch": 8,
-  "best_val_f1": 0.9899,
-  "test_accuracy": 0.99,
-  "test_f1": 0.99,
-  "test_auc": 0.9919,
-  "inference_ms": 23.72,
+  "epochs_ran": 17,
+  "best_epoch": 9,
+  "best_val_acc": 0.998,
+  "test_accuracy": 0.978,
+  "test_f1": 0.9781,
+  "test_auc": 0.9944,
+  "inference_ms": 31.15,
   "device": "cpu",
   "batch_size": 16,
-  "optimizer": "AdamW",
-  "scheduler": "CosineAnnealingLR"
+  "optimizer": "MuSGD (auto)",
+  "scheduler": "YOLO26 built-in cosine",
+  "training_time_min": 29.0
 }

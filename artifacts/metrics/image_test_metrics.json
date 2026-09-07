@@ -1,22 +1,24 @@
 {
-  "accuracy": 0.99,
-  "precision": 0.9902,
-  "recall": 0.99,
-  "f1": 0.99,
-  "roc_auc": 0.9919,
-  "inference_ms": 23.72,
+  "accuracy": 0.978,
+  "precision": 0.9785,
+  "recall": 0.978,
+  "f1": 0.9781,
+  "roc_auc": 0.9944,
+  "inference_ms": 31.15,
   "confusion_matrix": [
     [
-      369,
-      4
+      365,
+      8
     ],
     [
-      1,
-      125
+      3,
+      123
     ]
   ],
-  "model_name": "EfficientNet-B0",
-  "best_epoch": 8,
-  "best_val_f1": 0.9899,
-  "test_samples": 499
+  "model_name": "YOLO26n-cls",
+  "best_epoch": 9,
+  "best_val_acc": 0.998,
+  "test_samples": 499,
+  "top1_accuracy": 0.9779,
+  "top5_accuracy": 1.0
 }

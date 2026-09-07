@@ -18,3 +18,10 @@ ENV/
 # OS
 Thumbs.db
 .DS_Store
+
+# Large model files
+*.pth
+*.onnx
+*.pt
+runs/
+data/yolo_cls/
